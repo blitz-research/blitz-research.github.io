@@ -1,11 +1,34 @@
 ---
 layout: page
-title: About
+title: About monkey2
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Monkey2 is a new programming language designed for cross-platform game and utility creation.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Monkey2 features a clean, clear syntax that is largely self-documenting. For example, here is how you declare a class in monkey2:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% highlight monkey %}
+Class MyClass Extends BaseClass
+
+   Field x:Float
+   Field y:Float
+   Field vx:Float
+   Field vy:Float
+
+   Method Update()
+	Print( "Updating!" )
+	x+=vx
+	y+=vy
+   End
+End
+{% endhighlight %}
+
+However, despite its simple syntax, monkey2 also provides support for a wide range of modern programming techniques, including:
+
+* Automatic memory management
+* Generic classes and functions
+* Stack allocated structs
+* Operator overloading
+* First class functions
+* Anonymous 'lambda' functions
