@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Converting monkey1 code to monkey2"
-data: 2015-09-13 10:17:00
+data: 2015-09-14 10:17:00
 categories: monkey2 update
 ---
+
+A quick list of things to consider when converting monkey1 code to monkey2...
 
 # Strict mode not an option!
 
@@ -36,6 +38,7 @@ The easiest way to deal with this for now is to add this to the top of your sour
 {% highlight monkey %}
 Using std
 Using mojo
+Using mojo2
 {% endhighlight %}
 
 This will allow you to access ALL decalarations in the std and mojo namespaces.
@@ -141,4 +144,23 @@ Next
 {% endhighlight %}
 
 Finally, monkey2 ignores any end-of-line tokens that appear after any of the following: '(', '[' and ','. This allows you to split function parameter lists and auto array elements over mulitple lines.
+
+
+# No fancy slices (yet?).
+
+Instead of this...
+
+{% highlight monkey %}
+Local x:=t[x..]			'monkey1 only!
+Local y:=t[..y]
+Local z:=t[x..y]
+{% endhighlight %}
+
+...use this...
+
+{% highlight monkey %}
+Local x:=t.Slice( x )		'monkey2 only!
+Local y:=t.Slice( 0,y )
+Local z:=t.Slice( x,y )
+{% endhighlight %}
 

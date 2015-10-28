@@ -4,7 +4,7 @@ title: About monkey2
 permalink: /about/
 ---
 
-Monkey2 is a new programming language designed for cross-platform game and utility creation.
+Monkey2 is a new programming language currently under development designed for creating cross-platform apps and games.
 
 Monkey2 features a clean, clear syntax that is largely self-documenting. For example, here is how you declare a class in monkey2:
 
