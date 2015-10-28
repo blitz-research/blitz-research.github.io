@@ -13,7 +13,7 @@ This is still very much pre-alpha stuff, but it should be border-line usable now
 
 The zip file is available [here](http://www.monkey-x.com/mak/mx2/monkey2_28_Oct_2015.zip). I've also started on a little 'monkey1 to monkey2' doc [here]({% post_url 2015-09-14-monkey1-to-monkey2 %}).
 
-Most monkey1 language features should now be more or less functional (though I have tested some way more than others) and a few of the new monkey2 features are proving to be VERY useful. In paricular, I am loving function values and structs! There are some other new features in there, but they have received far less testing and some are very underdeveloped.
+Most monkey1 language features should now be more or less functional (though I have tested some way more than others) and a few of the new monkey2 features are proving to be VERY useful. In particular, I am loving function values and structs! There are some other new features in there, but they have received far less testing and some are very underdeveloped.
 
 
 There is still no thread support, and I've pretty much discarded any stunt parsing to deal with EOL issues (for now). I'll revisit this later, but right now my priority is to get error handling, line numbering etc working correctly and EOLs complicate this somewhat.
