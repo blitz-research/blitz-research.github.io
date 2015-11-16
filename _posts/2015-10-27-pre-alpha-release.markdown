@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New monkey2 pre-alpha released!"
-data: 2015-10-27 12:42:00
+date: 2015-10-27 12:42:00
 categories: monkey2 update
 ---
 

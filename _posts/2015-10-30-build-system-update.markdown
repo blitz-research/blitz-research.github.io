@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Updating the build system"
-data: 2015-10-30 18:35:00
+date: 2015-10-30 18:35:00
 categories: monkey2 update
 ---
 
