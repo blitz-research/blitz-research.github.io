@@ -17,5 +17,5 @@ I was expecting this to be a bit tricky, and indeed it was! While I had the 'gut
 
 But I think it's all going pretty well now, and solves one of my biggest gripes about monkey1 - the way it had to rebuild everything all the time! Compile times for larger projects should be MUCH better under monkey2 than they were under monkey1.
 
-Bye,
+Bye,  
 Mark
