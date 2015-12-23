@@ -9,9 +9,9 @@ Hello and happy Christmas!
 
 I have put together a little monkey2 'xmas demo' - downloads here:
 
-Windows: [monkey2_xmas2015v1.exe](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v1.exe)
+Windows: [monkey2_xmas2015v2.exe](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v2.exe)
 
-MacOs/Linux: [monkey2_xmas2015v1.zip](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v1.zip)
+MacOs/Linux: [monkey2_xmas2015v2.zip](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v2.zip)
 
 The Windows release is a self extracting archive that should 'just work'!
 
