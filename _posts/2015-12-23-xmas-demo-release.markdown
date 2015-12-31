@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "XMAS Demo (V2)!"
+title: "XMAS Demo (V3)!"
 date: 2015-12-23 17:07:00
 categories: monkey2 update
 ---
@@ -11,7 +11,7 @@ I have put together a little monkey2 'xmas demo' - downloads here:
 
 Windows: [monkey2_xmas2015v2.exe](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v2.exe)
 
-MacOs/Linux: [monkey2_xmas2015v2.zip](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v2.zip)
+MacOs/Linux: [monkey2_xmas2015v3.zip](http://www.monkey-x.com/mak/mx2/monkey2_xmas2015v3.zip)
 
 The Windows release is a self extracting archive that should 'just work'!
 
