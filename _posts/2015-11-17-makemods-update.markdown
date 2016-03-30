@@ -5,6 +5,8 @@ date: 2015-11-17 10:16:00
 categories: monkey2 update
 ---
 
+Blah!
+
 Alrighty, I finally have what I think is a pretty good module/library system going!
 
 The mx2cc app now has a 'makemod' option in addition to 'makeapp', which creates a '.a' archive file ('.so' to come...) from all .monkey2 files reachable (via #import) from a given root .monkey2 file. For now, you will need to include these source .monkey2 files if you want to redistrubute a module in 'prebuilt' form, but I plan to eventually provide an (optional) way to convert these to a pre-processed format.
