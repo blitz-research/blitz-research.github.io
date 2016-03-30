@@ -7,6 +7,8 @@ categories: monkey2 update
 
 Test!
 
+Test2!
+
 Hello and happy Christmas!
 
 I have put together a little monkey2 'xmas demo' - downloads here:
